@@ -41,6 +41,7 @@ public interface IntPersistencia {
     public Talla obten(Talla talla) throws Exception;
     public Modelo obten(Modelo modelo) throws Exception;
     public Apartado obten(Apartado apartado) throws Exception;
+    public TallaApartado obten(TallaApartado talla) throws Exception;
     public BajaDeInventario obten(BajaDeInventario baja) throws Exception;
     public MovimientoEnApartado obten(MovimientoEnApartado mov) throws Exception;
     

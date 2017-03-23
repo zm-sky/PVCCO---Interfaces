@@ -17,4 +17,9 @@ public interface IntAdmInventario {
     public void modificarPorApartadoCancelado(Apartado apartado) throws Exception;
     public void modificarPorApartadoAgregado(Apartado apartado) throws Exception;
     public void modificarPorApartadoLiquidado(Apartado apartado) throws Exception;
+
+    public Talla obten(Talla talla) throws Exception;
+    public Modelo obten(Modelo modelo) throws Exception;
+    public List<Talla> obtenListaTallas() throws Exception;
+    public List<Modelo> obtenListaModelos() throws Exception;
 }
