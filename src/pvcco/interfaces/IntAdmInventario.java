@@ -22,4 +22,5 @@ public interface IntAdmInventario {
     public Modelo obten(Modelo modelo) throws Exception;
     public List<Talla> obtenListaTallas() throws Exception;
     public List<Modelo> obtenListaModelos() throws Exception;
+    public List<Talla> obtenTallasDeModelo(Modelo modelo) throws Exception;
 }

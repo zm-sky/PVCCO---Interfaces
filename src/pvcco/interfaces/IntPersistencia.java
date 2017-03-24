@@ -54,4 +54,5 @@ public interface IntPersistencia {
     
     public Talla obtenTallaPorTalla(Talla talla) throws Exception;
     public Modelo obtenModeloPorNombre(Modelo modelo) throws Exception;
+    public List<Talla> obtenTallasDeModelo(Modelo modelo) throws Exception;
 }
