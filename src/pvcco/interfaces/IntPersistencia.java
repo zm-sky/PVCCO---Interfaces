@@ -11,7 +11,7 @@ import objetosNegocio.TallaApartado;
 
 /**
  *
- * @author Raul Karim Sabag Ballesteros
+ * @author Raul Karim Sabag Ballesteros GAY
  */
 public interface IntPersistencia {
     public void agregar(TallaApartado talla) throws Exception;
