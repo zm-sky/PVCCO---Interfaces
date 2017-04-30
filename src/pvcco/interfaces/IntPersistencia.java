@@ -9,6 +9,7 @@ import objetosNegocio.MovimientoEnApartado;
 import objetosNegocio.MovimientoEnVenta;
 import objetosNegocio.Talla;
 import objetosNegocio.TallaApartado;
+import objetosNegocio.Usuario;
 import objetosNegocio.Venta;
 import objetosNegocio.VentaTalla;
 
@@ -53,9 +54,14 @@ public interface IntPersistencia {
     public void actualizar(BajaDeInventario baja) throws Exception;
     public void eliminar(BajaDeInventario baja) throws Exception;
     
+    public void agregar(Usuario usuario) throws Exception;
+    public void actualizar(Usuario usuario) throws Exception;
+    public void eliminar(Usuario usuario) throws Exception;
+    
     public Talla obten(Talla talla) throws Exception;
     public Venta obten(Venta venta) throws Exception;
     public Modelo obten(Modelo modelo) throws Exception;
+    public Usuario obten(Usuario usuario) throws Exception;
     public Apartado obten(Apartado apartado) throws Exception;
     public VentaTalla obten(VentaTalla ventaTalla) throws Exception;
     public TallaApartado obten(TallaApartado talla) throws Exception;

@@ -14,6 +14,6 @@ import objetosNegocio.Usuario;
  * @author zippy
  */
 public interface IntAdmVentas {
-    public void realizarVenta(List<Talla> tallas, Usuario usuario, float totalVenta);
-    public void agregarVentaPorApartadoLiquidado(List<Talla> tallas, float cantidadPagada);
+    public void realizarVenta(List<Talla> tallas, List<Integer> cantidades, float totalVenta);
+    public void agregarVentaPorApartadoLiquidado(List<Talla> tallas, List<Integer> cantidades, float cantidadPagada);
 }
